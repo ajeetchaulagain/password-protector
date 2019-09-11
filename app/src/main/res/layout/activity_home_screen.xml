@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeScreen">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomeText"
+        android:textSize="24dp"
+        android:text="Welcome to Password Protector"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginTop="110dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Your Perfect Password Protector App"
+        android:padding="10dp"
+        android:layout_marginBottom="50dp"
+        android:textAlignment="center"
+        android:id="@+id/appQuote"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@mipmap/password_protect"
+        android:scaleType="centerInside"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="30dp"
+        android:text="Next"
+        android:id="@+id/next_to_fingerprint"
+        />
+
+
+
+</LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
